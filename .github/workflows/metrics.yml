@@ -54,7 +54,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.MUSIC_TOKEN }}
           plugin_music_mode: top
-          plugin_music_limit: 9
+          plugin_music_limit: 10
 
       - name: 👻 Achievements
         if: ${{ success() || failure() }}
