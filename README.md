@@ -1,1 +1,3 @@
-![legendnightt's github stats](https://github-readme-stats.vercel.app/api?username=legendnightt&count_private=true&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true)
+[<img align="left" width="390" alt="👻" src="https://gist.githubusercontent.com/legendnightt/a08f08027bd9e359cb0d83e522cf5f47/raw/general.svg">](#)
+[<img align="left" width="390" alt="👻" src="https://gist.githubusercontent.com/legendnightt/a08f08027bd9e359cb0d83e522cf5f47/raw/medias.svg">](#)
+[<img align="left" width="390" alt="👻" src="https://gist.githubusercontent.com/legendnightt/a08f08027bd9e359cb0d83e522cf5f47/raw/achievements.svg">](#)
