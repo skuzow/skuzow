@@ -1,6 +1,6 @@
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 
-name: 👻 Metrics
+name: 🔥 Metrics
 on:
   schedule: [{ cron: "0 16 * * *" }]
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: 👻 General
+      - name: 🔥 General
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
@@ -35,7 +35,7 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
 
-      - name: 👻 Medias
+      - name: 🔥 Medias
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
@@ -56,7 +56,7 @@ jobs:
           plugin_music_mode: top
           plugin_music_limit: 10
 
-      - name: 👻 Achievements
+      - name: 🔥 Achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
