@@ -17,8 +17,7 @@ jobs:
         with:
           filename: profile.svg
           token: ${{ secrets.TOKEN }}
-          base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Madrid
+          base: header, activity, community, repositories
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
       - name: contributions
