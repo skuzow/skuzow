@@ -18,11 +18,9 @@ jobs:
           filename: profile.svg
           token: ${{ secrets.TOKEN }}
           base: header, activity, community, repositories, metadata
-          config_order: followup
+          config_timezone: Europe/Madrid
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
-          plugin_followup: yes
-          plugin_followup_sections: user, repositories
       - name: contributions
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
